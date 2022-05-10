@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.DisciplinaActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nomeAluno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/nome_do_aluno"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_nomeDaDisciplina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/titulo_da_disciplina"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_dataHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-20dp"
+                android:text="@string/data_e_hora" />
+
+            <Button
+                android:id="@+id/btn_registrar_presenca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/confirmar_presenca"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_sair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_custom"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/buttonSair"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_infoLocalizacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Localização Atual"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/tv_infoLocalizacao"
+                android:text="Latitude"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_latitude"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Longitude"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_distancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_longitude"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Faltam x metros para você chegar ao seu destino"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color App !-->
+    <color name="colorPrimary">#284DAA</color>
+    <color name="colorPrimaryDark">#284DAA</color>
+    <color name="colorAccent">#284DAA</color>
+
+    <!-- Color Button !-->
+    <color name="colorButton">#284DAA</color>
+
+    <!-- Color Text !-->
+    <color name="colorTextBlack">#000000</color>
+
+</resources>

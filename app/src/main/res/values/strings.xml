@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Cronograma de Aulas</string>
+
+    <!-- fragment_login !-->
+    <string name="editUser">RGM</string>
+    <string name="editPassword">Senha</string>
+    <string name="buttonEntrar">Entrar</string>
+    <string name="tag">Preencha o RGM e a senha para continuar</string>
+    <string name="textLogin">Conectar-se</string>
+    <string name="deslize_registrar">Deslize para efeturar o cadastro</string>
+    <string name="esqueceu_rgm">Esqueci meu RGM</string>
+    <string name="esqueceu_senha">Esqueci minha senha</string>
+
+    <!-- fragment_register !-->
+    <string name="registrar">Registrar-se</string>
+    <string name="tag_register">Digite as informações abaixo para se registrar como aluno</string>
+    <string name="digite_o_seu_nome">Digite o seu nome</string>
+    <string name="digite_o_seu_e_mail">Digite o seu e-mail</string>
+    <string name="digite_a_sua_senha">Digite a sua senha</string>
+    <string name="repita_a_sua_senha">Repita a sua senha</string>
+    <string name="registrarButton">Registrar</string>
+    <string name="deslize_login">Deslize para se conectar</string>
+    <string name="senhas_nao_conferem">Senhas não conferem</string>
+
+    <!-- activity_disciplina !-->
+    <string name="nome_do_aluno">Nome do Aluno</string>
+    <string name="titulo_da_disciplina">Título da Disciplina</string>
+    <string name="data_e_hora">Data e hora</string>
+    <string name="localizacao">Localização</string>
+    <string name="confirmar_presenca">Registrar presença</string>
+
+    <!-- activity_recuperar_rgm !-->
+    <string name="digite_seu_e_mail">Digite seu e-mail</string>
+    <string name="recuperar_rgm">RECUPERAR</string>
+    <string name="title_activity_no_disciplina">NoDisciplinaActivity</string>
+
+    <!-- activity_no_disciplina !-->
+    <string name="text_discplina">Você não possui discplinas cadastradas</string>
+
+    <!-- activity_adiciona_materia !-->
+    <string name="selecione_um_curso">Selecione um curso</string>
+    <string name="inscrever_se_curso">Inscrever-se</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="buttonSair">Sair</string>
+    <string-array name="Curso">
+        <item>Ciências da Computação</item>
+    </string-array>
+
+</resources>

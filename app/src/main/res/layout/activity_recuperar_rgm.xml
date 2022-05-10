@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RecuperarRgmActivity">
+
+    <EditText
+        android:id="@+id/et_emailRecupera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/digite_seu_e_mail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_recuperarRgm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_emailRecupera"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/recuperar_rgm"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
